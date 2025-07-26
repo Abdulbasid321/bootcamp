@@ -18,12 +18,22 @@ export default function Navbar() {
           <Link href="#courses" className="hover:text-blue-600 transition">Courses</Link>
         </nav>
 
-        {/* Register Button */}
-        <Link href="#register">
-          <button className="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-full font-semibold transition">
-            Register Now
-          </button>
-        </Link>
+        {/* Action Buttons */}
+        <div className="flex gap-3">
+          {/* Register Button */}
+          <Link href="#register">
+            <button className="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-full font-semibold transition">
+              Register Now
+            </button>
+          </Link>
+
+          {/* Admin Login Button */}
+          <Link href="/admin/login">
+            <button className="border border-blue-600 text-blue-600 hover:bg-blue-100 px-5 py-2 rounded-full font-semibold transition">
+              Admin Login
+            </button>
+          </Link>
+        </div>
       </div>
     </header>
   );
