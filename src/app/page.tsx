@@ -154,11 +154,11 @@ export default function HomePage() {
           {/* Contact Info */}
           <div>
             <h4 className="text-xl font-semibold mb-3">Contact Us</h4>
-            <p className="text-sm">Phone: 08012345678</p>
+            <p className="text-sm">Phone: +2347065165630</p>
             <p className="text-sm">Email: info@mehub.ng</p>
             <p className="text-sm mt-2">
               <a
-                href="https://wa.me/2348012345678"
+                href="https://wa.me/+2347065165630"
                 target="_blank"
                 className="underline hover:text-gray-200"
               >
